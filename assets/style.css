@@ -1,0 +1,135 @@
+@import url('../assets/fonts/AvenirNextCry/stylesheet.css');
+
+:root{
+    --bg-main: #F6F3D8;
+    --bg-white: #FFFEF6;
+    --green: #01D98B;
+    --black: #3E3E3E;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Avenir Next Cyr';
+}
+.bg_body{
+    background-color: var(--bg-main);
+    padding: 64px 67px;
+    background-image: url(../assets/img/tree.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+header{
+    margin-bottom: 9.8125rem;
+}
+a{
+    text-decoration: none;
+    color: var(--black);
+}
+
+.bg-body2{
+    background-color: var(--bg-white);
+    padding: 64px 49px;
+    background-image: url(../assets/img/bg.png);
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+}
+.header1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    margin-right: 171px;
+}
+ul.nav_flex{
+    list-style: none;
+    display: flex;
+}
+.nav ul li{
+    margin-right: 5.5rem;
+    font-size: 1.5rem;
+    
+}
+
+.btn_login a{
+    font-size: 1.5rem;
+}
+.nav{
+    flex-grow: 1;
+}
+
+.nav_flex li a:hover{
+    color: #01D98B;
+}
+
+.btn_login{
+    padding: 20px 60px;
+    border: var(--black) solid 1px;
+    border-radius: 12px;
+    align-items: center;
+}
+main h2{
+    font-size: 40px;
+    line-height: 55px;
+    font-weight: normal;
+}
+main h1{
+    font-weight: 800;
+    font-size: 74px;
+    line-height: 101px;
+    color: var(--black);
+}
+main p{
+    font-size: 24px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    width: 651px;
+}
+.main_content{
+    margin-bottom: 96px;
+}
+.main_search{
+    width: 490px;
+}
+.main_search form{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-bottom: 20px;
+}
+.input_main{
+    padding: 10px 68px;
+    width: 100%;
+    font-size: 24px;
+    line-height: 50px;
+    color: #5E5D5D;
+    border: 1px solid #01D98B;
+    box-shadow: 0px 4px 80px rgba(0, 0, 0, 0.05);
+    border-radius: 12px;
+    background-image: url(../assets/img/map-search.svg);
+    background-repeat: no-repeat;
+    background-position: 21px center;
+    position: relative;
+}
+.btn_search{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    border: 0;
+    background-color: #01D98B;
+    margin-right: 16px;
+}
+.main_search form input:focus{
+    outline: none;
+}
+.main_search{
+    margin-bottom: 280px;
+}
+
+button::before{
+    cursor: pointer;
+}
